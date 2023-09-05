@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--fifth-color);
+  padding: 0.6rem 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+  user-select: none;
+}
+.header h1 {
+  color: white;
+}
+.header button {
+  color: white;
+  background-color: var(--forth-color);
+  padding: 0.6rem 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header button span {
+  margin: 0 0.7rem;
+}
+.amount {
+  background-color: var(--fifth-color);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

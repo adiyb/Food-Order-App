@@ -1,0 +1,45 @@
+.food {
+  border-bottom: 2px solid rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+}
+.addamount {
+  font-weight: 700;
+}
+.addamount input {
+  width: 50px;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 3px;
+  padding: 2px 5px;
+  outline: none;
+}
+.addamount button {
+  display: block;
+  background-color: var(--fifth-color);
+  color: white;
+  padding: 0.4rem 1.3rem;
+  border-radius: 3px;
+  margin: 0.5rem auto 0;
+  cursor: pointer;
+}
+.addamount label {
+  margin-right: 10px;
+}
+
+.fooddetail {
+  text-align: left;
+}
+.fooddetail p {
+  font-size: 0.8rem;
+}
+.fooddetail p:nth-of-type(1) {
+  margin: 0.4rem 0;
+  font-style: italic;
+}
+.fooddetail .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--forth-color);
+}
